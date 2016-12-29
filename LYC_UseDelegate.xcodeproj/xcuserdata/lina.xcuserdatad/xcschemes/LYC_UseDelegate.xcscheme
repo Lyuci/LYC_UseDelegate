@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3EDFBF391E14BA6800FAD3ED"
+               BuildableName = "LYC_UseDelegate.app"
+               BlueprintName = "LYC_UseDelegate"
+               ReferencedContainer = "container:LYC_UseDelegate.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3EDFBF551E14BA6900FAD3ED"
+               BuildableName = "LYC_UseDelegateTests.xctest"
+               BlueprintName = "LYC_UseDelegateTests"
+               ReferencedContainer = "container:LYC_UseDelegate.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3EDFBF601E14BA6900FAD3ED"
+               BuildableName = "LYC_UseDelegateUITests.xctest"
+               BlueprintName = "LYC_UseDelegateUITests"
+               ReferencedContainer = "container:LYC_UseDelegate.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3EDFBF391E14BA6800FAD3ED"
+            BuildableName = "LYC_UseDelegate.app"
+            BlueprintName = "LYC_UseDelegate"
+            ReferencedContainer = "container:LYC_UseDelegate.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3EDFBF391E14BA6800FAD3ED"
+            BuildableName = "LYC_UseDelegate.app"
+            BlueprintName = "LYC_UseDelegate"
+            ReferencedContainer = "container:LYC_UseDelegate.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3EDFBF391E14BA6800FAD3ED"
+            BuildableName = "LYC_UseDelegate.app"
+            BlueprintName = "LYC_UseDelegate"
+            ReferencedContainer = "container:LYC_UseDelegate.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -16,6 +16,7 @@
 		3EDFBF501E14BA6900FAD3ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDFBF4E1E14BA6900FAD3ED /* LaunchScreen.storyboard */; };
 		3EDFBF5B1E14BA6900FAD3ED /* LYC_UseDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDFBF5A1E14BA6900FAD3ED /* LYC_UseDelegateTests.m */; };
 		3EDFBF661E14BA6900FAD3ED /* LYC_UseDelegateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDFBF651E14BA6900FAD3ED /* LYC_UseDelegateUITests.m */; };
+		3EDFBF751E14BA8A00FAD3ED /* DelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDFBF741E14BA8A00FAD3ED /* DelegateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3EDFBF611E14BA6900FAD3ED /* LYC_UseDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYC_UseDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDFBF651E14BA6900FAD3ED /* LYC_UseDelegateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYC_UseDelegateUITests.m; sourceTree = "<group>"; };
 		3EDFBF671E14BA6900FAD3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDFBF731E14BA8A00FAD3ED /* DelegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateView.h; sourceTree = "<group>"; };
+		3EDFBF741E14BA8A00FAD3ED /* DelegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				3EDFBF411E14BA6900FAD3ED /* AppDelegate.m */,
 				3EDFBF431E14BA6900FAD3ED /* ViewController.h */,
 				3EDFBF441E14BA6900FAD3ED /* ViewController.m */,
+				3EDFBF731E14BA8A00FAD3ED /* DelegateView.h */,
+				3EDFBF741E14BA8A00FAD3ED /* DelegateView.m */,
 				3EDFBF461E14BA6900FAD3ED /* Main.storyboard */,
 				3EDFBF4C1E14BA6900FAD3ED /* Assets.xcassets */,
 				3EDFBF4E1E14BA6900FAD3ED /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EDFBF451E14BA6900FAD3ED /* ViewController.m in Sources */,
+				3EDFBF751E14BA8A00FAD3ED /* DelegateView.m in Sources */,
 				3EDFBF421E14BA6900FAD3ED /* AppDelegate.m in Sources */,
 				3EDFBF3F1E14BA6900FAD3ED /* main.m in Sources */,
 				3EDFBF4B1E14BA6900FAD3ED /* LYC_UseDelegate.xcdatamodeld in Sources */,
